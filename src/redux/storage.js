@@ -16,5 +16,3 @@ export default store = createStore(
 )
 
 sagaMiddleware.run(rootSaga)
-
-
