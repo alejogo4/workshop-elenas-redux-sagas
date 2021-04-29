@@ -11,7 +11,7 @@ export default props => {
       <StatusBar backgroundColor="#fff" barStyle="dark-content" />
       <Stack.Navigator
         initialRouteName='app'>
-        <Stack.Screen name="app" options={{title:'Home'}} component={App} />
+        <Stack.Screen name="app" options={{title:'Rick and morty'}} component={App} />
         
       </Stack.Navigator>
     </>
